@@ -161,3 +161,5 @@ const Pokemon: React.FC<PokemonProps> = ({ searchQuery }) => {
 };
 
 export default Pokemon;
+
+
