@@ -1,6 +1,6 @@
 # 🧿 Pokédex con React y Vite
 
-![Pokedex Banner](https://github.com/JoelVargass/Pokedex/blob/master/src/assets/Pokedex-img.png)
+![Pokedex Banner](https://github.com/JoelVargass/Pokedex/blob/main/src/assets/Pokedex-img.png)
 ![Vite](https://img.shields.io/badge/Vite-3.0-blueviolet)
 ![React](https://img.shields.io/badge/React-17.0.2-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
