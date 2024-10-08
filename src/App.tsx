@@ -17,7 +17,9 @@ function App() {
       <main className="max-w-[1400px] mx-auto h-full font-poppins p-4">
         <Pokemon searchQuery={searchQuery}/>
       </main>
+
         <Footer/>
+        
     </div>
   );
 }
