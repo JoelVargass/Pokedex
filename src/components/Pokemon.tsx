@@ -20,7 +20,7 @@ const Pokemon: React.FC<PokemonProps> = ({ searchQuery }) => {
     // Obtener Pokémon al montar el componente
     useEffect(() => {
         const getPokemon = async () => {
-            const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=100');
+            const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=500');
             const pokemonList = await response.json();
             const { results } = pokemonList;
 
@@ -131,7 +131,7 @@ const Pokemon: React.FC<PokemonProps> = ({ searchQuery }) => {
                         </div>
                     </div>
                 ))}
-                {currentPokemon.length === 0 && <p className="text-center w-full">No Pokémon found</p>}
+                {currentPokemon.length === 0 && <p className="text-center w-full">No Pokémon found</p>}  {/*en caso de error*/}
             </div>
 
             {/* Controles de paginación */}
